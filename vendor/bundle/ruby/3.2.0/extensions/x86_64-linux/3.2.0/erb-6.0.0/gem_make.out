@@ -1,0 +1,19 @@
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/erb-6.0.0/ext/erb/escape
+/home/sanjay/.rvm/rubies/ruby-3.2.3/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/erb-6.0.0/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-1u0ysr sitelibdir\=./.gem.20251124-4536-1u0ysr clean
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/erb-6.0.0/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-1u0ysr sitelibdir\=./.gem.20251124-4536-1u0ysr
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/erb-6.0.0/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-1u0ysr sitelibdir\=./.gem.20251124-4536-1u0ysr install
+/usr/bin/install -m 0755 escape.so ./.gem.20251124-4536-1u0ysr/erb
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/erb-6.0.0/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-1u0ysr sitelibdir\=./.gem.20251124-4536-1u0ysr clean

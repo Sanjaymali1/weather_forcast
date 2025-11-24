@@ -1,0 +1,19 @@
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+/home/sanjay/.rvm/rubies/ruby-3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-7s9htg sitelibdir\=./.gem.20251124-4536-7s9htg clean
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-7s9htg sitelibdir\=./.gem.20251124-4536-7s9htg
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-7s9htg sitelibdir\=./.gem.20251124-4536-7s9htg install
+/usr/bin/install -m 0755 debug.so ./.gem.20251124-4536-7s9htg/debug
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-7s9htg sitelibdir\=./.gem.20251124-4536-7s9htg clean

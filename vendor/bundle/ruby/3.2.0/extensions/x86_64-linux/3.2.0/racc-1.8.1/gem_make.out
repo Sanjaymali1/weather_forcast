@@ -1,0 +1,18 @@
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/home/sanjay/.rvm/rubies/ruby-3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-n0zcyr sitelibdir\=./.gem.20251124-4536-n0zcyr clean
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-n0zcyr sitelibdir\=./.gem.20251124-4536-n0zcyr
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-n0zcyr sitelibdir\=./.gem.20251124-4536-n0zcyr install
+/usr/bin/install -m 0755 cparse.so ./.gem.20251124-4536-n0zcyr/racc
+
+current directory: /home/sanjay/project/weather_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251124-4536-n0zcyr sitelibdir\=./.gem.20251124-4536-n0zcyr clean
