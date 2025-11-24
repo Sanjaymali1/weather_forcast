@@ -1,0 +1,68 @@
+<% if data.present? %>
+  <div class="forecast-container">
+
+    <h2 class="forecast-title">
+      Forecast for <%= @address %>
+    </h2>
+
+    <% if @from_cache %>
+      <p class="status-cache">Loaded from Cache</p>
+    <% else %>
+      <p class="status-api">Loaded from API</p>
+    <% end %>
+
+    <div class="forecast-box">
+      <p><strong>Current Temperature:</strong> <%= data.current_temp %>°C</p>
+      <p><strong>High Today:</strong> <%= data.high %>°C</p>
+      <p><strong>Low Today:</strong> <%= data.low %>°C</p>
+
+      <% if data.forecast_text %>
+        <p><strong>Extended Forecast:</strong> <%= data.forecast_text %></p>
+      <% end %>
+    </div>
+
+  </div>
+
+<% else %>
+  <p class="no-data">No forecast data available.</p>
+<% end %>
+
+<style>
+  .forecast-container {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid;
+    color: #222;
+  }
+
+  .forecast-title {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .status-cache {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+  }
+
+  .status-api {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+  }
+
+  .forecast-box {
+    border-radius: 10px;
+    background: rgba(255,255,255,0.4);
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .no-data {
+    text-align: center;
+    font-family: Arial;
+  }
+</style>

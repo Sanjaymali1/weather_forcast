@@ -1,0 +1,16 @@
+<div style="text-align: center; width: 100%;">
+
+  <h2>Weather Forecast</h2>
+
+  <%= form_with url: forecast_path, method: :post, local: true do %>
+    <%= text_field_tag :address, params[:address], placeholder: 'Enter Address' %>
+    <%= submit_tag "Get Forecast" %>
+  <% end %>
+  <hr>
+  <% if @error %>
+    <p style="color:red;"><%= @error %></p>
+  <% end %>
+
+  <div id="weather_data"></div>
+
+</div>
