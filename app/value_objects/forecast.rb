@@ -1,5 +1,5 @@
-# A value object representing weather forecast information.
-# Immutable and validated structure promoting clean architecture.
+# Represents a weather forecast with current, high, low temps, and description.
+# Immutable object to ensure safe use across the application.
 
 class Forecast
   attr_reader :current_temp, :high, :low, :forecast_text, :source

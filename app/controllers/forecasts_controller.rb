@@ -1,5 +1,8 @@
+# Controller to handle weather forecast requests
+# Supports address input, geocoding, and caching of results
 class ForecastsController < ApplicationController
   def index
+    # Display the search form
   end
 
   def fetch_weather

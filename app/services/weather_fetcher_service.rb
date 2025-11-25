@@ -1,6 +1,6 @@
-# Fetches weather details.
-# Handles caching + API calls.
-# Returns Forecast value object.
+# Service responsible for fetching weather data from Open-Meteo API.
+# It fetches current temperature, daily high/low, and optional extended forecast.
+# Caches the response to reduce repeated API calls.
 
 class WeatherFetcherService
   include HTTParty
@@ -28,6 +28,8 @@ class WeatherFetcherService
       daily: "temperature_2m_max,temperature_2m_min,weathercode",
       timezone: "auto"
     })
+
+    return nil unless response.present?
 
     weather = response.parsed_response
 
